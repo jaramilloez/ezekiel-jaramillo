@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./components/hero";
 import ToTop from "./components/toTop";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
@@ -11,6 +12,7 @@ function App() {
     <React.Fragment>
       <NavBar />
       <div className="container d-flex justify-content-center">
+        <Hero />
         <About />
         <Skills />
         <Projects />
