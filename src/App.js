@@ -11,7 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
-      <div className="container d-flex justify-content-center">
+      <div className="container d-flex flex-column">
         <Hero />
         <About />
         <Skills />

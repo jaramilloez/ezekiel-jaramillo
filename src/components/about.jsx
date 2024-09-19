@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <div className="fs-3 fw-bold">ABOUT ME</div>
-      <div className="fs-5 lh-lg pe-5">
+    <div className="section">
+      <div className="header">ABOUT ME</div>
+      <div className="fs-5 pe-5">
         <div className="py-2">
           Hello! I'm Ezekiel, a devoted Full Stack Engineer with a passion for
           tinkering. Growing up in Ogden, Utah, I developed a strong foundation

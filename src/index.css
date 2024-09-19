@@ -5,3 +5,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 240);
 }
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0.25rem 0;
+}
+
+.skillsItem {
+  text-align: center;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skillsIcon {
+  width: 100px;
+  transition: transform 0.7s;
+}
+.skillsIcon:hover {
+  transform: rotate(360deg);
+}
+
+.skillsItemText {
+  font-size: 1.25rem;
+  padding-top: 0.25rem;
+}
