@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body {
   margin: 0;
   font-family: "Inria Sans", sans-serif;
@@ -6,11 +8,17 @@ body {
   background-color: rgb(255, 255, 240);
 }
 
+.section {
+  padding: 3rem 0;
+}
+
 .header {
   font-size: 2.5rem;
   font-weight: 700;
   padding: 0.25rem 0;
 }
+
+/* SKILLS */
 
 .skillsItem {
   text-align: center;
@@ -22,13 +30,55 @@ body {
 
 .skillsIcon {
   width: 100px;
-  transition: transform 0.7s;
 }
 .skillsIcon:hover {
   transform: rotate(360deg);
+  transition: transform 0.3s ease-out;
 }
 
 .skillsItemText {
   font-size: 1.25rem;
   padding-top: 0.25rem;
+}
+
+/* PROJECTS */
+
+.accordion-button {
+  padding: 0;
+  margin: 0;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.projectItem {
+  border: solid black 3px;
+}
+
+.projectItemHeader button {
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+.projectItemBody {
+  font-size: 1.25rem;
+  padding: 0 1.5rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectItemGithub {
+  color: black;
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  transition: all 0.1s;
+}
+.projectItemGithub:hover {
+  transform: scale(1.2);
 }

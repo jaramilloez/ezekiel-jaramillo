@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="section">
       <div className="header">MY SKILLS</div>
-      <div className="fs-3 d-flex flex-wrap justify-content-center px-5">
+      <div className="fs-3 d-flex flex-wrap justify-content-evenly">
         <div className="skillsItem">
           <img
             src={require("../images/javaScript.png")}
