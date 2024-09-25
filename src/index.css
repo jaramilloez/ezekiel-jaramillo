@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: "Inria Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 240);
@@ -17,6 +17,62 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   padding: 0.25rem 0;
+}
+
+/* HERO */
+
+#hero {
+  padding: 10rem 0;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#hero a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(240, 110, 70);
+  margin: 0.5rem auto;
+  border: 2px solid black;
+  border-radius: 50rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.25rem;
+  transition: all 0.1s;
+}
+#hero a:hover {
+  transform: scale(1.2);
+}
+
+#heroName {
+  font-size: 7vw;
+  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  border-right: 0.1em solid rgb(240, 110, 70);
+  animation: typing 2s steps(17, end), blink-caret 1s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(240, 110, 70);
+  }
 }
 
 /* SKILLS */
