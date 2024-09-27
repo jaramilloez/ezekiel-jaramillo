@@ -27,7 +27,7 @@ nav {
 }
 
 #navName {
-  text-shadow: rgb(240 110 70) -0.03rem 0.03rem 0.2rem;
+  text-shadow: rgb(240 110 70) -1px 0.5px 2px;
 }
 
 .navLink {
