@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="section">
+    <div id="skills" className="section">
       <div className="header">MY SKILLS</div>
       <div className="fs-3 d-flex flex-wrap justify-content-evenly">
         <div className="skillsItem">

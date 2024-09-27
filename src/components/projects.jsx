@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   return (
-    <div className="section">
+    <div id="projects" className="section">
       <div className="header">Featured Projects</div>
       <div class="accordion py-4" id="projectsAccordion">
         <div class="projectItem accordion-item">

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./components/hero";
-import ToTop from "./components/toTop";
+import Footer from "./components/footer";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
@@ -17,7 +17,7 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
-        <ToTop />
+        <Footer />
       </div>
     </React.Fragment>
   );
