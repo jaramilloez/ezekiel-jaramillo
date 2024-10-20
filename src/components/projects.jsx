@@ -79,7 +79,8 @@ const Projects = () => {
             data-bs-parent="#projectsAccordion"
           >
             A classic, efficient task manager. Users can create, edit, and
-            delete their tasks. It also benifits from filter and sorting
+            delete their tasks. It also bene
+            fits from filter and sorting
             options, as well as all of the tasks being paginated.
             <a href="https://github.com/jaramilloez/Task-Manager">
               <FontAwesomeIcon icon={faGithub} className="projectItemGithub" />
